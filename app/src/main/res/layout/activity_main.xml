@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="#5E4AAF1E"
+
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Arena"
+        android:textSize="35dp"
+        android:textColor="#AE051285"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banner"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome to Taste Fusion, the food shop where flavors collide and culinary adventures come to life. Here are some unique features that make our food shop an exceptional dining experience:\n\n\n
+
+        Flavor Exploration: At Taste Fusion, we celebrate the art of combining diverse flavors from around the world. Our menu is a creative playground where traditional dishes are reimagined with unexpected ingredients and culinary techniques. Prepare your taste buds for a journey of exciting and harmonious flavor combinations that will leave you craving for more.\n
+
+        Interactive Cooking Stations: We believe in transparency and engagement, which is why we have interactive cooking stations right in the heart of our food shop. You can watch our skilled chefs prepare your meal with precision and flair. Feel free to ask questions, learn about their techniques, and witness the magic of cooking unfold before your eyes.\n
+
+        Seasonal and Local Ingredients: We are passionate about supporting local farmers and utilizing the freshest seasonal ingredients. Our menu changes regularly to embrace the flavors of each season, ensuring that every dish bursts with vibrant, natural goodness. From farm-fresh vegetables to locally sourced meats, every bite tells a story of sustainability and community.\n"
+            android:textColor="#AEF44336"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Items:"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textColor="#1935D5"/>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:background="#5B673AB7"
+        >
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/food1"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:textSize="25dp"
+            android:textColor="#DBF107"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:background="#5B673AB7"
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/food4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments"
+            android:textSize="25dp"
+            android:textColor="#DBF107"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:background="#5B673AB7"
+
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/food3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textSize="25dp"
+            android:textColor="#DBF107"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Buy Now"
+            android:textSize="40dp"
+            android:padding="15px"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</LinearLayout>
